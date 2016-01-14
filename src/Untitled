@@ -1,0 +1,21 @@
+m (a (b c) (d (e (f g h) i) j) k) n
+
+(a (b c) (d e) (f) g) h
+
+(a b) (b c)
+
+(a(b(c(d(e(f)g)h)i)j)k)
+
+(a b)
+
+(a b (c d) ) ) 
+
+a b c ( d e f (g h) ( i ) (j ( k l ) ) ) )
+
+a
+
+a b 
+
+a b (c) d
+
+(b c) d (a ) 

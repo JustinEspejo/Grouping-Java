@@ -1,0 +1,59 @@
+Inputted text : m (a (b c) (d (e (f g h) i) j) k) n
+Group 0 : m (a (b c) (d (e (f g h) i) j) k) n
+Group 1: (a (b c) (d (e (f g h) i) j) k)
+Group 2: (b c)
+Group 3: (d (e (f g h) i) j)
+Group 4: (e (f g h) i)
+Group 5: (f g h)
+
+Inputted text : (a (b c) (d e) (f) g) h
+Group 0 : (a (b c) (d e) (f) g) h
+Group 1: (a (b c) (d e) (f) g)
+Group 2: (b c)
+Group 3: (d e)
+Group 4: (f)
+
+Inputted text : (a b) (b c)
+Group 0 : (a b) (b c)
+Group 1: (a b)
+Group 2: (b c)
+
+Inputted text : (a(b(c(d(e(f)g)h)i)j)k)
+Group 0 : (a(b(c(d(e(f)g)h)i)j)k)
+Group 1: (b(c(d(e(f)g)h)i)j)
+Group 2: (c(d(e(f)g)h)i)
+Group 3: (d(e(f)g)h)
+Group 4: (e(f)g)
+Group 5: (f)
+
+Inputted text : (a b)
+Group 0 : (a b)
+
+Inputted text : (a b (c d) ) ) 
+Group 0 : (a b (c d) ) ) 
+Group 1: (a b (c d) )
+Group 2: (c d)
+
+Inputted text : a b c ( d e f (g h) ( i ) (j ( k l ) ) ) )
+Group 0 : a b c ( d e f (g h) ( i ) (j ( k l ) ) ) )
+Group 1: ( d e f (g h) ( i ) (j ( k l ) ) )
+Group 2: (g h)
+Group 3: ( i )
+Group 4: (j ( k l ) )
+Group 5: ( k l )
+
+Inputted text : a
+Group 0 : a
+
+Inputted text : a b 
+Group 0 : a b 
+
+Inputted text : a b (c) d
+Group 0 : a b (c) d
+Group 1: (c)
+
+Inputted text : (b c) d (a ) 
+Group 0 : (b c) d (a ) 
+Group 1: (b c)
+Group 2: (a )
+
